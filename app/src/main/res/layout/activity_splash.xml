@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.windowsprotected.activityset.SplashActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/iv_splash"
+        android:background="@drawable/r8"
+        android:layout_height="match_parent"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="end"
+            android:background="@color/colorgray"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:text=" 倒计时: "
+                android:textSize="18sp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/tv_time_count"
+                android:text="1"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:text=" 秒 "
+                android:textSize="18sp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </FrameLayout>
+</RelativeLayout>

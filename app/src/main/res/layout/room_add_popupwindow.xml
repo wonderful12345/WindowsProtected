@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="end"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout
+              android:orientation="vertical"
+              android:gravity="center"
+              android:padding="20dp"
+              android:layout_width="250dp"
+              android:layout_gravity="end"
+              android:background="@color/colorTheme"
+              android:layout_height="240dp">
+
+    <Button
+        android:layout_margin="5dp"
+        android:layout_width="200dp"
+        android:text="增加房间"
+        android:id="@+id/btn_cellular_1"
+        android:textColor="@color/colorWhite"
+        android:textSize="22sp"
+        android:background="#3becdd"
+        android:layout_height="60dp"/>
+
+    <Button
+        android:layout_margin="5dp"
+        android:layout_width="200dp"
+        android:text="删除房间"
+        android:id="@+id/btn_cellular_2"
+        android:textColor="@color/colorWhite"
+        android:textSize="22sp"
+        android:background="#3becdd"
+        android:layout_height="60dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:text="设置"
+        android:textColor="@color/colorWhite"
+        android:textSize="22sp"
+        android:id="@+id/btn_cellular_3"
+        android:layout_margin="5dp"
+        android:background="#3becdd"
+        android:layout_height="60dp"/>
+
+</LinearLayout>
+</RelativeLayout>

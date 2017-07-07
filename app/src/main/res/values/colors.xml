@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTheme">#12cac0</color>
+    <color name="colorWhite">#fff</color>
+    <color name="coloritem">#2de1c3</color>
+    <color name="colorgray">#f8c4c4c4</color>
+    <color name="top_bg_color">#019696</color>
+    <color name="result_view">#b0000000</color>
+    <color name="night_mode">#0f66a0</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+</resources>

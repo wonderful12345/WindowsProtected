@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:fitsSystemWindows="true"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:id="@+id/toolbar_window_control"
+            android:background="@color/colorTheme"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="22sp"
+                android:text="窗户一"
+                android:id="@+id/tv_window_control_title"
+                android:textColor="@color/colorWhite"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"/>
+        </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@+id/toolbar_window_control"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="9"
+                android:background="#bcbcbc"
+                android:id="@+id/linear_window_control_background_change"
+                android:layout_marginBottom="1dp"
+                android:layout_height="0dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="bottom|left"
+                    android:paddingLeft="18dp"
+                    android:paddingBottom="8dp"
+                    android:text="湿度："
+                    android:id="@+id/tv_humidity_name"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="#000"
+                    android:id="@+id/tv_window_humidity"
+                    android:layout_gravity="bottom|left"
+                    android:text="0.266"
+                    android:paddingRight="20dp"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/tv_dew_point_name"
+                    android:layout_gravity="bottom|left"
+                    android:text="露点："
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="bottom|left"
+                    android:text="0.026"
+                    android:textSize="16sp"
+                    android:paddingRight="20dp"
+                    android:textColor="#000"
+                    android:id="@+id/tv_window_dew_point"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="bottom|left"
+                    android:text="PM值："
+                    android:id="@+id/tv_flour_name"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="bottom|left"
+                    android:text="0.026"
+                    android:textSize="16sp"
+                    android:textColor="#000"
+                    android:id="@+id/tv_window_flour"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="3"
+                android:id="@+id/linear_one"
+                android:layout_height="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:id="@+id/btn_window_close"
+                        android:layout_margin="6dp"
+                        android:background="@drawable/turn_left_cancle"
+                        android:layout_height="match_parent"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="窗户开关"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/button_side_style"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView"/>
+
+                    <ImageButton
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="关窗"
+                        android:id="@+id/btn_window_open"
+                        android:layout_margin="6dp"
+                        android:background="@drawable/turn_right_cancle"
+                        android:textSize="18sp"
+                        android:layout_height="match_parent"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="3"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_height="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+
+                    <include layout="@layout/light_strength_style"
+                             android:layout_width="0dp"
+                             android:layout_margin="1dp"
+                             android:layout_height="match_parent"
+                             android:layout_weight="1"/>
+
+
+                    <include layout="@layout/mode_strength_style"
+                             android:layout_width="0dp"
+                             android:layout_margin="1dp"
+                             android:layout_height="match_parent"
+                             android:layout_weight="1"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="3"
+                android:layout_marginBottom="1dp"
+                android:layout_height="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+
+                    <include layout="@layout/air_strength_style"
+                             android:layout_width="0dp"
+                             android:layout_margin="1dp"
+                             android:layout_height="match_parent"
+                             android:layout_weight="1"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="光照强度："
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:id="@+id/tv_window_illumination_intensity"
+                        android:layout_margin="1dp"
+                        android:background="@drawable/button_side_style"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="3"
+                android:layout_height="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+
+                    <include layout="@layout/win_strength_style"
+                             android:layout_width="0dp"
+                             android:layout_margin="1dp"
+                             android:layout_height="match_parent"
+                             android:layout_weight="1"/>
+
+                    <include layout="@layout/video_strength_style"
+                             android:layout_width="0dp"
+                             android:layout_margin="1dp"
+                             android:layout_height="match_parent"
+                             android:layout_weight="1"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_margin="15dp"
+            android:id="@+id/fl_iv_weather"
+            android:layout_below="@+id/toolbar_window_control"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="60dp"
+                android:background="@drawable/sunny"
+                android:id="@+id/iv_window_rain"
+                android:layout_height="60dp"/>
+        </FrameLayout>
+    <FrameLayout
+        android:layout_width="185dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/fl_tv_temperature"
+        android:layout_below="@+id/toolbar_window_control"
+        android:layout_height="180dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="27.3"
+            android:textSize="80sp"
+            android:layout_marginTop="26dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_temperature"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:text="自动"
+            android:id="@+id/tv_window_mode_style"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/temperature_picture"
+            android:layout_height="40dp"
+            android:id="@+id/imageView_temperature_picture"/>
+    </FrameLayout>
+</RelativeLayout>

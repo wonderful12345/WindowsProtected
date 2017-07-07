@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_notification"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.windowsprotected.activityset.NotificationActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar_notification"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorTheme"
+        android:layout_height="60dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="22sp"
+            android:text="窗卫士通知"
+            android:textColor="@color/colorWhite"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"/>
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+
+        android:layout_below="@+id/toolbar_notification"
+        android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:id="@+id/recycler_notification"
+                    android:layout_height="wrap_content">
+                </android.support.v7.widget.RecyclerView>
+            </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

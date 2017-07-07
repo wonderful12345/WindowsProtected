@@ -1,0 +1,7 @@
+#Tue Jul 04 16:37:20 CST 2017
+base.0=D\:\\androidstudio2.2worksplace\\WindowsProtected\\javaapkcomVoiceToWord\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_60703ccdb1561b3d2e014e63397612ae4a43540d
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\androidstudio2.2worksplace\\WindowsProtected\\javaapkcomVoiceToWord\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_3b4084e2c75dc05459e57beed5734d61fe5fd13b\\classes.dex
+base.1=D\:\\androidstudio2.2worksplace\\WindowsProtected\\javaapkcomVoiceToWord\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_3b4084e2c75dc05459e57beed5734d61fe5fd13b
+file.0=D\:\\androidstudio2.2worksplace\\WindowsProtected\\javaapkcomVoiceToWord\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_60703ccdb1561b3d2e014e63397612ae4a43540d\\classes.dex

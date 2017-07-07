@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="24"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="1302585241220223"
+    token="4605806558415822932"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="1543" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="383" />
+    <task
+        name="verifier"
+        duration="23" />
+
+    <artifact
+        location="D:\androidstudio2.2worksplace\WindowsProtected\javaapkcomVoiceToWord\build\outputs\apk\javaapkcomVoiceToWord-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="1302585241220223"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="D:\androidstudio2.2worksplace\WindowsProtected\javaapkcomVoiceToWord\build\outputs\apk\javaapkcomVoiceToWord-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
